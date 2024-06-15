@@ -1,0 +1,25 @@
+{
+  "name": "culinatecaapi",
+  "version": "1.0.0",
+  "description": "Api de Culinateca",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon scr/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Renzo Sarmiento",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
