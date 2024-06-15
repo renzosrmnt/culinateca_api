@@ -1,12 +1,12 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import connectDB from './config/db.js'; // Asegúrate de que la extensión .js está presente
+import {URL, PORT, DB_DATABASE, DB_PORT, DB_HOST} from './config/config.js'
 
 import recipes from './routes/recipes.js';
 import suggestions from './routes/suggestions.js';
 
 const app = express();
-const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(bodyParser.json());
