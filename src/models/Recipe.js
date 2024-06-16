@@ -9,6 +9,7 @@ const RecipeSchema = new Schema({
   servingSize: { type: String, required: true },
   imageUrl: { type: String },
   category: { type: String, required: true },
+  createdAt: { type: Date, default: Date.now },
 });
 
 export default model('Recipe', RecipeSchema);
