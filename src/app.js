@@ -7,6 +7,7 @@ import recipes from './routes/recipes.js';
 import suggestions from './routes/suggestions.js';
 
 const app = express();
+app.use(cors());
 
 // Middleware
 app.use(bodyParser.json());
