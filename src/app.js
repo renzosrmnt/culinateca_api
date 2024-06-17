@@ -5,6 +5,7 @@ import {URL, PORT, DB_DATABASE, DB_PORT, DB_HOST} from './config/config.js'
 
 import recipes from './routes/recipes.js';
 import suggestions from './routes/suggestions.js';
+import cors from 'cors'
 
 const app = express();
 app.use(cors());
