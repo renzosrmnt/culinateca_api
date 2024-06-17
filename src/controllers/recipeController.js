@@ -73,3 +73,21 @@ export async function searchRecipes(req, res) {
     res.status(500).json({ message: err.message });
   }
 }
+
+export async function getNewestRecipes(req, res) {
+  try {
+    const recipes = await Recipe.find().sort({ createdAt: -1 }).limit(5);
+    res.json(recipes);
+  } catch (err) { 
+    res.status(500).json({ message: err.message });
+  }
+}
+
+export async function getRandomRecipes(req, res) {
+  try {
+    const recipes = await Recipe.aggregate([{ $sample: { size: 5 } }]);
+    res.json(recipes);
+  } catch (err) { 
+    res.status(500).json({ message: err.message });
+  }
+}
