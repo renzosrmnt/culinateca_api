@@ -92,6 +92,7 @@ export async function getRandomRecipes(req, res) {
   }
 }
 
+
 export async function getRecipesByPage(req, res) {
   const page = parseInt(req.query.page) || 1;
   const pageSize = parseInt(req.query.pageSize) || 10;

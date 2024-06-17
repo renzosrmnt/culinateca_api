@@ -6,8 +6,8 @@ const router = express.Router();
 router.get('/search', searchRecipes);
 router.get('/newest', getNewestRecipes);
 router.get('/random', getRandomRecipes);
-router.get('/:id', getRecipeById);
 router.get('/page', getRecipesByPage);
+router.get('/:id', getRecipeById);
 
 router.get('/', getAllRecipes);
 router.post('/', createRecipe);
