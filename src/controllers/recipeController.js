@@ -97,11 +97,12 @@ export async function getRecipesByPage(req, res) {
   const pageSize = parseInt(req.query.pageSize) || 10;
 
   try {
+    const total = await Recipe.countDocuments(); // Obtener el total de recetas
     const recipes = await Recipe.find()
       .skip((page - 1) * pageSize)
       .limit(pageSize);
 
-    res.json(recipes);
+    res.json({ recipes, total }); // Devolver las recetas y el total
   } catch (err) {
     res.status(500).json({ message: err.message });
   }
