@@ -91,3 +91,18 @@ export async function getRandomRecipes(req, res) {
     res.status(500).json({ message: err.message });
   }
 }
+
+export async function getRecipesByPage(req, res) {
+  const page = parseInt(req.query.page) || 1;
+  const pageSize = parseInt(req.query.pageSize) || 10;
+
+  try {
+    const recipes = await Recipe.find()
+      .skip((page - 1) * pageSize)
+      .limit(pageSize);
+
+    res.json(recipes);
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+}
