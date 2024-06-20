@@ -1,0 +1,1690 @@
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Ensalada César",
+  "description": "Una clásica ensalada César con pollo y aderezo cremoso.",
+  "ingredients": [
+    "1 pechuga de pollo cocida y desmenuzada",
+    "Lechuga romana fresca",
+    "Crutones",
+    "Queso parmesano rallado",
+    "Aderezo César"
+  ],
+  "steps": [
+    "Lavar y cortar la lechuga romana en trozos pequeños.",
+    "Agregar el pollo desmenuzado, los crutones y el queso parmesano a la lechuga.",
+    "Verter el aderezo César sobre la ensalada y mezclar bien.",
+    "Servir inmediatamente y disfrutar."
+  ],
+  "preparationTime": "20 minutos",
+  "servingSize": "2 porciones",
+  "imageUrl": "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "category": "Ensaladas"
+}
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Torta de Chocolate",
+  "description": "Una deliciosa torta de chocolate para disfrutar en cualquier ocasión.",
+  "ingredients": [
+    "200g de chocolate negro",
+    "150g de mantequilla",
+    "150g de azúcar",
+    "3 huevos",
+    "100g de harina",
+    "1 cucharadita de polvo de hornear"
+  ],
+  "steps": [
+    "Precalentar el horno a 180°C.",
+    "Derretir el chocolate y la mantequilla al baño maría.",
+    "Batir los huevos con el azúcar hasta que estén espumosos.",
+    "Incorporar el chocolate derretido a la mezcla de huevos y azúcar.",
+    "Agregar la harina y el polvo de hornear, mezclar hasta obtener una masa homogénea.",
+    "Verter la mezcla en un molde previamente engrasado y enharinado.",
+    "Hornear durante 30-35 minutos o hasta que al insertar un palillo, este salga limpio."
+  ],
+  "preparationTime": "45 minutos",
+  "servingSize": "8 porciones",
+  "imageUrl": "https://images.unsplash.com/photo-1626263468007-a9e0cf83f1ac?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "category": "Postres"
+}
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Pollo al Horno",
+  "description": "Un delicioso y jugoso pollo al horno, perfecto para una cena familiar.",
+  "ingredients": [
+    "1 pollo entero",
+    "2 cucharadas de aceite de oliva",
+    "4 dientes de ajo picados",
+    "1 cucharada de romero fresco picado",
+    "1 cucharada de tomillo fresco picado",
+    "1 limón (jugo y ralladura)",
+    "Sal al gusto",
+    "Pimienta al gusto",
+    "1 taza de caldo de pollo"
+  ],
+  "steps": [
+    "Precalentar el horno a 200°C (400°F).",
+    "En un tazón pequeño, mezclar el aceite de oliva, el ajo picado, el romero, el tomillo, el jugo y la ralladura de limón, la sal y la pimienta.",
+    "Secar el pollo con toallas de papel y colocar en una fuente para hornear.",
+    "Untar la mezcla de aceite y hierbas sobre todo el pollo, asegurándose de cubrirlo bien.",
+    "Verter el caldo de pollo en la fuente para hornear.",
+    "Hornear el pollo en el horno precalentado durante 1 hora y 15 minutos, o hasta que la piel esté dorada y crujiente y los jugos salgan claros.",
+    "Retirar el pollo del horno y dejar reposar durante 10 minutos antes de cortar y servir."
+  ],
+  "preparationTime": "1 hora y 30 minutos",
+  "servingSize": "4 porciones",
+  "imageUrl": "https://images.unsplash.com/photo-1602534956586-2f4997a5a8ef?q=80&w=2012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "category": "Platos Principales"
+}
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Sopa de Tomate",
+  "description": "Una reconfortante sopa de tomate casera, perfecta para los días fríos.",
+  "ingredients": [
+    "Tomates maduros",
+    "Cebolla",
+    "Ajo",
+    "Caldo de verduras",
+    "Aceite de oliva",
+    "Sal y pimienta al gusto"
+  ],
+  "steps": [
+    "Saltear la cebolla y el ajo en aceite de oliva hasta que estén dorados.",
+    "Agregar los tomates picados y cocinar hasta que se deshagan.",
+    "Añadir el caldo de verduras y llevar a ebullición.",
+    "Reducir el fuego y cocinar a fuego lento durante 20 minutos.",
+    "Condimentar con sal y pimienta al gusto.",
+    "Servir caliente y disfrutar."
+  ],
+  "preparationTime": "30 minutos",
+  "servingSize": "4 porciones",
+  "imageUrl": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "category": "Sopas"
+}
+
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Tacos de Carnitas",
+  "description": "Deliciosos tacos mexicanos de carnitas con salsa y toppings frescos.",
+  "ingredients": [
+    "Cerdo (preferiblemente pierna)",
+    "Naranjas",
+    "Ajo",
+    "Hoja de laurel",
+    "Tortillas de maíz",
+    "Cebolla, cilantro y limón para servir"
+  ],
+  "steps": [
+    "Cortar el cerdo en trozos y marinar con jugo de naranja, ajo picado y hoja de laurel.",
+    "Cocinar lentamente en una olla hasta que la carne esté tierna y dorada.",
+    "Desmenuzar la carne y dorarla en su propia grasa.",
+    "Calentar las tortillas y rellenar con la carne.",
+    "Servir con cebolla, cilantro y limón al gusto.",
+    "Disfrutar con salsa picante."
+  ],
+  "preparationTime": "3 horas",
+  "servingSize": "6 tacos",
+  "imageUrl": "https://images.unsplash.com/photo-1512427691650-15fcce1dc7b1?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "category": "Tacos"
+}
+
+
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Risotto de Champiñones",
+  "description": "Un cremoso risotto de champiñones con queso parmesano.",
+  "ingredients": [
+    "Arroz Arborio",
+    "Champiñones frescos",
+    "Cebolla",
+    "Caldo de pollo",
+    "Vino blanco",
+    "Queso parmesano rallado"
+  ],
+  "steps": [
+    "Saltear la cebolla en aceite de oliva hasta que esté transparente.",
+    "Agregar los champiñones cortados y cocinar hasta que estén dorados.",
+    "Añadir el arroz Arborio y cocinar por unos minutos.",
+    "Incorporar el vino blanco y dejar que se evapore el alcohol.",
+    "Agregar caldo de pollo caliente poco a poco, removiendo constantemente.",
+    "Cocinar hasta que el arroz esté al dente y cremoso.",
+    "Mezclar con queso parmesano rallado y servir caliente."
+  ],
+  "preparationTime": "40 minutos",
+  "servingSize": "4 porciones",
+  "imageUrl": "https://images.unsplash.com/photo-1633964913295-ceb43826e7c9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "category": "Risottos"
+}
+
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Pollo al Curry",
+  "description": "Pollo cocido lentamente en una salsa de curry aromática con leche de coco.",
+  "ingredients": [
+    "Pechugas de pollo",
+    "Cebolla",
+    "Ajo",
+    "Jengibre fresco",
+    "Curry en polvo",
+    "Leche de coco"
+  ],
+  "steps": [
+    "Dorar el pollo en una sartén grande hasta que esté bien cocido.",
+    "Agregar la cebolla, el ajo y el jengibre picados y cocinar hasta que estén dorados.",
+    "Añadir el curry en polvo y cocinar por un minuto más.",
+    "Verter la leche de coco y cocinar a fuego lento durante 15-20 minutos.",
+    "Servir caliente con arroz blanco o naan."
+  ],
+  "preparationTime": "30 minutos",
+  "servingSize": "4 porciones",
+  "imageUrl": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80&w=1971&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "category": "Platos principales"
+}
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Pesto de Albahaca",
+  "description": "Una salsa fresca y aromática de albahaca, perfecta para pasta o ensaladas.",
+  "ingredients": [
+    "Albahaca fresca",
+    "Piñones",
+    "Queso parmesano rallado",
+    "Ajo",
+    "Aceite de oliva",
+    "Sal y pimienta al gusto"
+  ],
+  "steps": [
+    "Triturar la albahaca, los piñones, el queso parmesano y el ajo en un procesador de alimentos.",
+    "Agregar aceite de oliva lentamente hasta obtener la consistencia deseada.",
+    "Condimentar con sal y pimienta al gusto.",
+    "Mezclar con pasta recién cocida o usar como aderezo para ensaladas."
+  ],
+  "preparationTime": "15 minutos",
+  "servingSize": "1 taza",
+  "imageUrl": "https://images.unsplash.com/photo-1605590955562-be1a5fda4161?q=80&w=1998&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "category": "Salsas"
+}
+
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Paella Valenciana",
+  "description": "Una paella tradicional con mariscos, pollo y verduras.",
+  "ingredients": [
+    "Arroz bomba",
+    "Pollo",
+    "Langostinos",
+    "Mejillones",
+    "Judías verdes",
+    "Pimiento rojo",
+    "Azafrán",
+    "Caldo de pescado"
+  ],
+  "steps": [
+    "Dorar el pollo en una paellera con aceite de oliva.",
+    "Agregar las verduras cortadas y cocinar hasta que estén tiernas.",
+    "Añadir el arroz y mezclar bien con los ingredientes.",
+    "Incorporar el azafrán disuelto en el caldo de pescado caliente.",
+    "Cocinar a fuego medio durante unos 20 minutos hasta que el arroz esté listo.",
+    "Decorar con los langostinos y mejillones cocidos.",
+    "Dejar reposar unos minutos y servir caliente."
+  ],
+  "preparationTime": "1 hora",
+  "servingSize": "6 porciones",
+  "imageUrl": "https://images.unsplash.com/photo-1714383611437-485d97141913?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "category": "Paellas"
+}
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Guacamole",
+  "description": "Un clásico guacamole mexicano con aguacate, tomate y cilantro fresco.",
+  "ingredients": [
+    "Aguacates maduros",
+    "Tomate",
+    "Cebolla roja",
+    "Cilantro fresco",
+    "Jugo de limón",
+    "Sal y pimienta al gusto"
+  ],
+  "steps": [
+    "Pelar y aplastar los aguacates en un tazón grande.",
+    "Agregar el tomate, la cebolla roja y el cilantro picados finamente.",
+    "Exprimir el jugo de limón y mezclar bien.",
+    "Condimentar con sal y pimienta al gusto.",
+    "Servir con totopos o como acompañamiento."
+  ],
+  "preparationTime": "15 minutos",
+  "servingSize": "2 tazas",
+  "imageUrl": "https://images.unsplash.com/photo-1595016111459-799a195e7452?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "category": "Aperitivos"
+}
+
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Hamburguesa Clásica",
+  "description": "Una jugosa hamburguesa con carne de res, queso, lechuga y tomate.",
+  "ingredients": [
+    "Carne molida de res",
+    "Pan de hamburguesa",
+    "Queso cheddar",
+    "Lechuga",
+    "Tomate",
+    "Cebolla",
+    "Mayonesa y mostaza al gusto"
+  ],
+  "steps": [
+    "Formar las hamburguesas con la carne molida sazonada.",
+    "Asar o cocinar a la parrilla hasta que estén cocidas al gusto.",
+    "Tostar ligeramente los panes de hamburguesa.",
+    "Montar las hamburguesas con queso derretido, lechuga, tomate y cebolla.",
+    "Agregar mayonesa y mostaza al gusto.",
+    "Servir con papas fritas o ensalada."
+  ],
+  "preparationTime": "30 minutos",
+  "servingSize": "2 hamburguesas",
+  "imageUrl": "https://images.unsplash.com/photo-1535569807835-01fd773379ad?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "category": "Hamburguesas"
+}
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Tarta de Manzana",
+  "description": "Una deliciosa tarta de manzana con una base crujiente y relleno de manzanas caramelizadas.",
+  "ingredients": [
+    "Manzanas",
+    "Azúcar",
+    "Canela en polvo",
+    "Masa quebrada",
+    "Mantequilla",
+    "Jugo de limón"
+  ],
+  "steps": [
+    "Pelar y cortar las manzanas en rodajas finas.",
+    "Saltear las manzanas con mantequilla, azúcar y canela hasta que estén caramelizadas.",
+    "Forrar un molde con la masa quebrada y pinchar la base.",
+    "Rellenar con las manzanas caramelizadas y cubrir con otra capa de masa.",
+    "Hornear a 180°C durante 30-40 minutos hasta que la masa esté dorada.",
+    "Dejar enfriar antes de servir."
+  ],
+  "preparationTime": "1 hora",
+  "servingSize": "8 porciones",
+  "imageUrl": "https://images.unsplash.com/photo-1621743478914-cc8a86d7e7b5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "category": "Postres"
+}
+
+
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Pasta Carbonara",
+  "description": "Una pasta cremosa con panceta, huevo y queso pecorino.",
+  "ingredients": [
+    "Pasta (preferiblemente espaguetis)",
+    "Panceta o tocino ahumado",
+    "Huevos",
+    "Queso pecorino rallado",
+    "Ajo",
+    "Aceite de oliva",
+    "Pimienta negra molida"
+  ],
+  "steps": [
+    "Cocinar la pasta en agua salada según las instrucciones del paquete.",
+    "Mientras tanto, dorar la panceta o tocino en una sartén con aceite de oliva.",
+    "Batir los huevos con el queso pecorino y la pimienta negra en un tazón grande.",
+    "Escurrir la pasta y agregar a la sartén con la panceta, mezclando bien.",
+    "Retirar del fuego y agregar la mezcla de huevo y queso, revolviendo rápidamente para que el huevo se cocine con el calor residual.",
+    "Servir caliente con más queso pecorino y pimienta negra al gusto."
+  ],
+  "preparationTime": "20 minutos",
+  "servingSize": "4 porciones",
+  "imageUrl": "https://images.unsplash.com/photo-1588013273468-315fd88ea34c?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "category": "Pastas"
+}
+
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Enchiladas Suizas",
+  "description": "Enchiladas rellenas de pollo bañadas en una salsa verde cremosa y gratinadas con queso.",
+  "ingredients": [
+    "Tortillas de maíz",
+    "Pechuga de pollo cocida y desmenuzada",
+    "Crema",
+    "Queso Oaxaca o mozzarella rallado",
+    "Chile verde",
+    "Ajo"
+  ],
+  "steps": [
+    "Calentar las tortillas de maíz en un comal o sartén.",
+    "Rellenar las tortillas con el pollo desmenuzado y enrollarlas.",
+    "Colocar las enchiladas en un refractario.",
+    "Licuar la crema con el chile verde y el ajo hasta obtener una salsa.",
+    "Verter la salsa sobre las enchiladas y espolvorear queso rallado encima.",
+    "Hornear a 180°C durante 15-20 minutos hasta que el queso esté dorado y burbujeante.",
+    "Servir con arroz y frijoles."
+  ],
+  "preparationTime": "40 minutos",
+  "servingSize": "4 porciones",
+  "imageUrl": "https://images.unsplash.com/photo-1570461226513-e08b58a52c53?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "category": "Comida Mexicana"
+}
+
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Sushi de Salmón",
+  "description": "Sushi fresco con salmón y aguacate, acompañado de salsa de soja y wasabi.",
+  "ingredients": [
+    "Arroz para sushi",
+    "Salmón fresco",
+    "Algas nori",
+    "Aguacate",
+    "Vinagre de arroz",
+    "Azúcar",
+    "Sal",
+    "Salsa de soja y wasabi"
+  ],
+  "steps": [
+    "Cocinar el arroz para sushi según las instrucciones del paquete y condimentar con vinagre de arroz, azúcar y sal.",
+    "Cortar el salmón y el aguacate en tiras finas.",
+    "Colocar una hoja de alga nori sobre una esterilla de bambú.",
+    "Cubrir con una capa fina de arroz y colocar el salmón y aguacate en el centro.",
+    "Enrollar con cuidado usando la esterilla, presionando suavemente para compactar.",
+    "Cortar en rodajas con un cuchillo afilado y servir con salsa de soja y wasabi."
+  ],
+  "preparationTime": "1 hora",
+  "servingSize": "4 personas",
+  "imageUrl": "https://images.unsplash.com/photo-1562158074-d49fbeffcc91?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "category": "Sushi"
+}
+
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Albóndigas en Salsa",
+  "description": "Albóndigas caseras en una salsa de tomate y hierbas.",
+  "ingredients": [
+    "Carne molida de res y cerdo",
+    "Pan rallado",
+    "Huevo",
+    "Cebolla",
+    "Ajo",
+    "Tomate triturado",
+    "Caldo de carne",
+    "Aceite de oliva",
+    "Hierbas frescas (romero, tomillo)"
+  ],
+  "steps": [
+    "Mezclar la carne molida con el pan rallado, huevo, cebolla y ajo picados.",
+    "Formar albóndigas pequeñas y dorarlas en una sartén con aceite de oliva.",
+    "Retirar las albóndigas y en la misma sartén, sofreír cebolla y ajo picados hasta que estén dorados.",
+    "Agregar el tomate triturado, caldo de carne y hierbas frescas.",
+    "Incorporar las albóndigas y cocinar a fuego lento durante 20-25 minutos.",
+    "Servir caliente con puré de papas o pasta."
+  ],
+  "preparationTime": "45 minutos",
+  "servingSize": "4 porciones",
+  "imageUrl": "https://images.unsplash.com/photo-1598511726623-d2e9996892f0?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "category": "Platos principales"
+}
+
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Ratatouille",
+  "description": "Un guiso de verduras mediterráneo con tomate, berenjena y calabacín.",
+  "ingredients": [
+    "Tomates maduros",
+    "Berenjena",
+    "Calabacín",
+    "Cebolla",
+    "Ajo",
+    "Aceite de oliva",
+    "Hierbas provenzales (tomillo, romero, orégano)",
+    "Sal y pimienta al gusto"
+  ],
+  "steps": [
+    "Cortar todas las verduras en rodajas finas.",
+    "Saltear la cebolla y el ajo en una olla con aceite de oliva hasta que estén dorados.",
+    "Agregar las berenjenas y calabacines y cocinar por unos minutos.",
+    "Incorporar los tomates picados y las hierbas provenzales.",
+    "Cocinar a fuego lento durante 30-40 minutos, removiendo ocasionalmente.",
+    "Condimentar con sal y pimienta al gusto antes de servir."
+  ],
+  "preparationTime": "50 minutos",
+  "servingSize": "4 porciones",
+  "imageUrl": "https://images.unsplash.com/photo-1572453800999-e8d2d1589b7c?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "category": "Vegetariano"
+}
+
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Mousse de Chocolate",
+  "description": "Un postre cremoso y ligero de chocolate negro y huevos.",
+  "ingredients": [
+    "Chocolate negro",
+    "Huevos",
+    "Azúcar",
+    "Mantequilla",
+    "Esencia de vainilla",
+    "Nata montada (opcional)"
+  ],
+  "steps": [
+    "Derretir el chocolate negro con la mantequilla a baño maría.",
+    "Separar las claras de las yemas de huevo.",
+    "Batir las yemas con el azúcar hasta que estén cremosas.",
+    "Agregar el chocolate derretido y mezclar bien.",
+    "Batir las claras a punto de nieve e incorporar con movimientos envolventes a la mezcla de chocolate.",
+    "Refrigerar durante al menos 4 horas antes de servir.",
+    "Opcionalmente, decorar con nata montada antes de servir."
+  ],
+  "preparationTime": "30 minutos más refrigeración",
+  "servingSize": "6 porciones",
+  "imageUrl": "https://images.unsplash.com/photo-1590080875852-ba44f83ff2db?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "category": "Postres"
+}
+
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Empanadas Argentinas",
+  "description": "Empanadas caseras rellenas de carne, típicas de la gastronomía argentina.",
+  "ingredients": [
+    "Carne picada",
+    "Cebolla",
+    "Pimiento rojo",
+    "Aceitunas verdes",
+    "Huevo duro",
+    "Comino",
+    "Pimentón",
+    "Masa para empanadas",
+    "Aceite vegetal"
+  ],
+  "steps": [
+    "Picar la cebolla y el pimiento rojo finamente.",
+    "Saltear la cebolla en una sartén con aceite hasta que esté dorada.",
+    "Agregar la carne picada y cocinar hasta que esté dorada.",
+    "Incorporar el pimiento, las aceitunas picadas, comino y pimentón.",
+    "Cocinar por unos minutos más y dejar enfriar la mezcla.",
+    "Rellenar las empanadas con la mezcla fría y cerrar los bordes.",
+    "Pintar las empanadas con huevo batido y hornear a 180°C hasta que estén doradas."
+  ],
+  "preparationTime": "1 hora",
+  "servingSize": "12 empanadas",
+  "imageUrl": "https://images.unsplash.com/photo-1548228586-171fb0887ac0?q=80&w=1977&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "category": "Aperitivos"
+}
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Pad Thai",
+  "description": "Un clásico tailandés con fideos de arroz, gambas y verduras salteadas.",
+  "ingredients": [
+    "Fideos de arroz",
+    "Gambas o camarones",
+    "Tofu firme",
+    "Cebolla morada",
+    "Brotes de soja",
+    "Cacahuetes tostados",
+    "Huevos",
+    "Salsa de tamarindo",
+    "Salsa de pescado",
+    "Aceite de girasol",
+    "Limón"
+  ],
+  "steps": [
+    "Cocinar los fideos de arroz según las instrucciones del paquete y escurrir.",
+    "Saltear las gambas, el tofu y la cebolla morada en una sartén con aceite de girasol.",
+    "Empujar los ingredientes hacia un lado de la sartén y verter los huevos batidos.",
+    "Revolver hasta que los huevos estén cocidos y mezclar con los ingredientes salteados.",
+    "Agregar los fideos de arroz cocidos, brotes de soja, salsa de tamarindo y salsa de pescado.",
+    "Cocinar a fuego medio hasta que todo esté bien combinado y caliente.",
+    "Servir con cacahuetes tostados y limón en gajos."
+  ],
+  "preparationTime": "30 minutos",
+  "servingSize": "4 porciones",
+  "imageUrl": "https://images.unsplash.com/photo-1559314809-0d155014e29e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "category": "Comida Tailandesa"
+}
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Coq au Vin",
+  "description": "Un clásico de la cocina francesa con pollo, champiñones y vino tinto.",
+  "ingredients": [
+    "Muslos de pollo",
+    "Tocino o panceta ahumada",
+    "Champiñones",
+    "Cebolla",
+    "Zanahorias",
+    "Ajo",
+    "Vino tinto seco",
+    "Caldo de pollo",
+    "Tomillo fresco",
+    "Aceite de oliva"
+  ],
+  "steps": [
+    "Dorar el tocino en una cazuela con aceite de oliva.",
+    "Agregar los muslos de pollo y dorar por ambos lados.",
+    "Retirar el pollo y en la misma cazuela, sofreír la cebolla, zanahorias y champiñones.",
+    "Incorporar el ajo picado y cocinar por unos minutos más.",
+    "Verter el vino tinto y reducir a fuego alto.",
+    "Agregar el caldo de pollo y el tomillo fresco, y volver a colocar el pollo en la cazuela.",
+    "Cocinar a fuego lento durante 1 hora hasta que el pollo esté tierno.",
+    "Servir caliente con pan fresco."
+  ],
+  "preparationTime": "1 hora y 30 minutos",
+  "servingSize": "4 porciones",
+  "imageUrl": "https://static01.nyt.com/images/2023/08/24/multimedia/MC-Coq-Au-Van-ctpm/MC-Coq-Au-Van-ctpm-articleLarge.jpg",
+  "category": "Platos principales"
+}
+
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Goulash Húngaro",
+  "description": "Un estofado húngaro con carne de res, paprika y verduras.",
+  "ingredients": [
+    "Carne de res para estofado",
+    "Cebolla",
+    "Pimiento rojo",
+    "Tomate",
+    "Paprika",
+    "Caldo de carne",
+    "Pimiento chile (opcional)",
+    "Aceite vegetal",
+    "Patatas",
+    "Crema agria (opcional)"
+  ],
+  "steps": [
+    "Cortar la carne de res en cubos y dorar en una olla con aceite vegetal.",
+    "Agregar la cebolla y el pimiento rojo picados, y cocinar hasta que estén dorados.",
+    "Incorporar el tomate picado y cocinar por unos minutos más.",
+    "Espolvorear paprika y agregar el caldo de carne.",
+    "Cocinar a fuego lento durante 1 hora, añadiendo agua si es necesario.",
+    "Agregar las patatas cortadas y cocinar hasta que estén tiernas.",
+    "Condimentar con sal y pimienta al gusto.",
+    "Servir caliente con crema agria y pan de centeno."
+  ],
+  "preparationTime": "2 horas",
+  "servingSize": "6 porciones",
+  "imageUrl": "https://imag.bonviveur.com/goulash-hungaro.jpg",
+  "category": "Estofados"
+}
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Pollo al Limón",
+  "description": "Filetes de pechuga de pollo en una salsa cremosa de limón y hierbas.",
+  "ingredients": [
+    "Pechugas de pollo",
+    "Limones",
+    "Caldo de pollo",
+    "Crema de leche",
+    "Ajo",
+    "Tomillo fresco",
+    "Aceite de oliva",
+    "Sal y pimienta al gusto"
+  ],
+  "steps": [
+    "Sazonar las pechugas de pollo con sal, pimienta y tomillo fresco.",
+    "Dorar el pollo en una sartén con aceite de oliva hasta que esté dorado por ambos lados.",
+    "Agregar ajo picado y cocinar por un minuto.",
+    "Verter el caldo de pollo y el jugo de limón, y cocinar a fuego medio hasta que el pollo esté cocido.",
+    "Incorporar la crema de leche y mezclar bien.",
+    "Cocinar a fuego lento hasta que la salsa espese ligeramente.",
+    "Servir caliente acompañado de arroz o papas al vapor."
+  ],
+  "preparationTime": "30 minutos",
+  "servingSize": "4 porciones",
+  "imageUrl": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "category": "Pollo"
+}
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Pollo a la Parmesana",
+  "description": "Filetes de pechuga de pollo empanizados y gratinados con queso parmesano y salsa marinara.",
+  "ingredients": [
+    "Pechugas de pollo",
+    "Pan rallado",
+    "Queso parmesano rallado",
+    "Huevos",
+    "Harina",
+    "Aceite de oliva",
+    "Salsa marinara",
+    "Mozzarella fresca",
+    "Albahaca fresca",
+    "Sal y pimienta al gusto"
+  ],
+  "steps": [
+    "Sazonar las pechugas de pollo con sal y pimienta.",
+    "Pasar cada filete por harina, huevo batido y luego por la mezcla de pan rallado y queso parmesano.",
+    "Dorar los filetes en una sartén con aceite de oliva hasta que estén dorados por ambos lados.",
+    "Colocar los filetes en una bandeja para hornear, cubrir con salsa marinara y mozzarella.",
+    "Hornear a 180°C hasta que el queso esté dorado y burbujeante.",
+    "Decorar con hojas de albahaca fresca antes de servir."
+  ],
+  "preparationTime": "40 minutos",
+  "servingSize": "4 porciones",
+  "imageUrl": "https://www.hogarmania.com/archivos/202403/pollo-a-la-parmesana-1280x720x80xX.jpg",
+  "category": "Pollo"
+}
+
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+
+{
+  "title": "Pollo Teriyaki",
+  "description": "Trozos de pollo en una salsa teriyaki dulce y salada, con verduras salteadas.",
+  "ingredients": [
+    "Pechugas de pollo",
+    "Salsa teriyaki",
+    "Sésamo tostado",
+    "Aceite de sésamo",
+    "Ajo",
+    "Jengibre fresco",
+    "Pimiento rojo",
+    "Cebolla verde",
+    "Arroz blanco cocido",
+    "Sal y pimienta al gusto"
+  ],
+  "steps": [
+    "Cortar las pechugas de pollo en trozos y sazonar con sal y pimienta.",
+    "Saltear el pollo en una sartén con aceite de sésamo hasta que esté dorado.",
+    "Agregar ajo y jengibre picados, pimiento rojo y cebolla verde.",
+    "Verter la salsa teriyaki y cocinar hasta que el pollo esté cocido y la salsa se haya reducido.",
+    "Espolvorear con sésamo tostado y servir caliente sobre arroz blanco."
+  ],
+  "preparationTime": "25 minutos",
+  "servingSize": "4 porciones",
+  "imageUrl": "https://imag.bonviveur.com/pollo-en-salsa-teriyaki.jpg",
+  "category": "Pollo"
+}
+
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Pollo Tikka Masala",
+  "description": "Trozos de pollo marinados en especias y yogur, en una cremosa salsa de tomate y especias indias.",
+  "ingredients": [
+    "Pechugas de pollo",
+    "Yogur natural",
+    "Jengibre fresco",
+    "Ajo",
+    "Cilantro fresco",
+    "Tomates triturados",
+    "Crema de leche",
+    "Garam masala",
+    "Comino",
+    "Cúrcuma",
+    "Arroz basmati",
+    "Sal y pimienta al gusto"
+  ],
+  "steps": [
+    "Cortar las pechugas de pollo en trozos y marinar en yogur, jengibre, ajo, cilantro y especias.",
+    "Dorar el pollo en una sartén con aceite hasta que esté dorado por fuera.",
+    "Agregar tomates triturados y cocinar a fuego lento hasta que la salsa espese ligeramente.",
+    "Incorporar la crema de leche y las especias garam masala, comino y cúrcuma.",
+    "Cocinar a fuego bajo hasta que el pollo esté tierno y la salsa tenga la consistencia deseada.",
+    "Servir caliente con arroz basmati cocido."
+  ],
+  "preparationTime": "45 minutos",
+  "servingSize": "4 porciones",
+  "imageUrl": "https://www.hogarmania.com/archivos/202302/pollo-tikka-masala1-1280x720x80xX.jpg",
+  "category": "Pollo"
+}
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Ensalada Caprese",
+  "description": "Una ensalada fresca con tomates, mozzarella y albahaca, aliñada con aceite de oliva y vinagre balsámico.",
+  "ingredients": [
+    "Tomates maduros",
+    "Queso mozzarella fresco",
+    "Hojas de albahaca fresca",
+    "Aceite de oliva virgen extra",
+    "Vinagre balsámico",
+    "Sal y pimienta al gusto"
+  ],
+  "steps": [
+    "Cortar los tomates y el queso mozzarella en rodajas.",
+    "Disponer las rodajas de tomate y mozzarella en un plato alternándolas.",
+    "Colocar hojas de albahaca fresca entre las capas de tomate y queso.",
+    "Rociar con aceite de oliva y vinagre balsámico.",
+    "Condimentar con sal y pimienta al gusto.",
+    "Servir fresco como entrada o acompañamiento."
+  ],
+  "preparationTime": "10 minutos",
+  "servingSize": "2 porciones",
+  "imageUrl": "https://deliciaskitchen.b-cdn.net/wp-content/uploads/2022/07/ensalada-caprese-receta-original-italiana.jpg",
+  "category": "Ensaladas"
+}
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Ensalada de Quinoa",
+  "description": "Una ensalada nutritiva con quinoa, vegetales frescos y aderezo de limón y cilantro.",
+  "ingredients": [
+    "Quinoa",
+    "Tomate cherry",
+    "Pepino",
+    "Pimiento rojo",
+    "Cebolla roja",
+    "Hojas de cilantro fresco",
+    "Limón",
+    "Aceite de oliva",
+    "Sal y pimienta al gusto"
+  ],
+  "steps": [
+    "Cocinar la quinoa según las instrucciones del paquete y dejar enfriar.",
+    "Cortar en rodajas los tomates cherry, pepino y pimiento rojo.",
+    "Picar finamente la cebolla roja y las hojas de cilantro.",
+    "En un bol grande, combinar la quinoa cocida, los vegetales cortados y el cilantro picado.",
+    "Exprimir el jugo de limón sobre la ensalada, rociar con aceite de oliva, sal y pimienta al gusto.",
+    "Mezclar bien y refrigerar antes de servir."
+  ],
+  "preparationTime": "25 minutos",
+  "servingSize": "4 porciones",
+  "imageUrl": "https://t2.uc.ltmcdn.com/es/posts/2/5/7/como_hacer_una_ensalada_de_quinoa_33752_orig.jpg",
+  "category": "Ensaladas"
+}
+
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Salsa Pesto",
+  "description": "Una salsa italiana aromática con albahaca fresca, piñones, queso parmesano y aceite de oliva.",
+  "ingredients": [
+    "Hojas de albahaca fresca",
+    "Piñones",
+    "Ajo",
+    "Queso parmesano rallado",
+    "Aceite de oliva virgen extra",
+    "Sal y pimienta al gusto"
+  ],
+  "steps": [
+    "En un procesador de alimentos, triturar las hojas de albahaca con los piñones y el ajo picado.",
+    "Agregar gradualmente el queso parmesano rallado mientras se sigue triturando.",
+    "Verter lentamente el aceite de oliva en la mezcla hasta obtener la consistencia deseada.",
+    "Condimentar con sal y pimienta al gusto y mezclar bien.",
+    "Usar como salsa para pasta, aderezo para ensaladas o dip para pan."
+  ],
+  "preparationTime": "15 minutos",
+  "servingSize": "1 taza",
+  "imageUrl": "https://www.laespanolaaceites.com/wp-content/uploads/2023/12/Salsa-Pesto-1080x675.webp",
+  "category": "Salsas"
+}
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Salsa de Mango Picante",
+  "description": "Una salsa tropical con mango fresco, chile jalapeño, cilantro y jugo de lima.",
+  "ingredients": [
+    "Mango maduro",
+    "Chile jalapeño",
+    "Cilantro fresco",
+    "Cebolla morada",
+    "Jugo de lima",
+    "Aceite de oliva",
+    "Sal y pimienta al gusto"
+  ],
+  "steps": [
+    "Pelar y cortar el mango en trozos pequeños.",
+    "Picar finamente el chile jalapeño, cilantro y cebolla morada.",
+    "En un bol, mezclar el mango, chile jalapeño, cilantro y cebolla morada.",
+    "Exprimir el jugo de lima sobre la mezcla y rociar con aceite de oliva.",
+    "Condimentar con sal y pimienta al gusto y mezclar bien.",
+    "Refrigerar antes de servir como acompañamiento para carne, pescado o como salsa para tacos."
+  ],
+  "preparationTime": "20 minutos",
+  "servingSize": "1 taza",
+  "imageUrl": "https://cdn0.recetasgratis.net/es/posts/8/5/9/salsa_de_mango_con_habanero_73958_orig.jpg",
+  "category": "Salsas"
+}
+
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Cheesecake de Fresa",
+  "description": "Un cheesecake cremoso con un topping de salsa de fresa y decorado con fresas frescas.",
+  "ingredients": [
+    "Galletas trituradas",
+    "Mantequilla derretida",
+    "Queso crema",
+    "Azúcar",
+    "Huevos",
+    "Crema de leche",
+    "Extracto de vainilla",
+    "Fresas frescas",
+    "Mermelada de fresa"
+  ],
+  "steps": [
+    "Mezclar las galletas trituradas con la mantequilla derretida y presionar en el fondo de un molde para cheesecake.",
+    "Batir el queso crema con azúcar hasta que esté suave.",
+    "Incorporar los huevos uno a uno, luego agregar la crema de leche y la vainilla.",
+    "Verter la mezcla sobre la base de galletas y hornear a 160°C durante 45-50 minutos.",
+    "Enfriar completamente y refrigerar por varias horas o toda la noche.",
+    "Calentar la mermelada de fresa y cubrir el cheesecake refrigerado.",
+    "Decorar con fresas frescas antes de servir."
+  ],
+  "preparationTime": "1 hora y 30 minutos",
+  "servingSize": "12 porciones",
+  "imageUrl": "https://img-global.cpcdn.com/recipes/dadf28ddea687c58/680x482cq70/cheesecake-de-fresa-foto-principal.jpg",
+  "category": "Tortas y Pasteles"
+}
+
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Tiramisú",
+  "description": "Un clásico postre italiano con capas de bizcochos de soletilla empapados en café y crema de mascarpone.",
+  "ingredients": [
+    "Huevos",
+    "Azúcar",
+    "Queso mascarpone",
+    "Bizcochos de soletilla",
+    "Café espresso",
+    "Licor de café (opcional)",
+    "Cacao en polvo"
+  ],
+  "steps": [
+    "Separar las claras de las yemas de huevo.",
+    "Batir las yemas con azúcar hasta que estén espumosas, luego incorporar el mascarpone.",
+    "Batir las claras a punto de nieve y agregar con cuidado a la mezcla de yemas y mascarpone.",
+    "Mojar los bizcochos en café espresso y licor de café si se usa.",
+    "Colocar una capa de bizcochos en el fondo de un molde, cubrir con la crema de mascarpone.",
+    "Repetir las capas y terminar con una capa de crema.",
+    "Espolvorear con cacao en polvo y refrigerar al menos 4 horas antes de servir."
+  ],
+  "preparationTime": "30 minutos + tiempo de refrigeración",
+  "servingSize": "8 porciones",
+  "imageUrl": "https://s1.elespanol.com/2023/12/15/cocinillas/recetas/817428853_238446864_1706x1280.jpg",
+  "category": "Tortas y Pasteles"
+}
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Flan de Vainilla",
+  "description": "Un postre suave y delicado con sabor a vainilla, bañado en caramelo.",
+  "ingredients": [
+    "Leche",
+    "Huevos",
+    "Azúcar",
+    "Esencia de vainilla",
+    "Agua",
+    "Azúcar para el caramelo"
+  ],
+  "steps": [
+    "Preparar el caramelo colocando azúcar y agua en una sartén a fuego medio hasta que se derrita y caramelice.",
+    "Verter el caramelo en moldes individuales y dejar enfriar.",
+    "Batir los huevos con azúcar y esencia de vainilla.",
+    "Calentar la leche hasta que esté casi hirviendo y verter sobre la mezcla de huevos, batir constantemente.",
+    "Colar la mezcla y verter en los moldes sobre el caramelo.",
+    "Hornear al baño maría a 180°C durante 45-50 minutos o hasta que esté firme.",
+    "Dejar enfriar y refrigerar por al menos 2 horas antes de desmoldar y servir."
+  ],
+  "preparationTime": "1 hora y 30 minutos + tiempo de refrigeración",
+  "servingSize": "6 porciones",
+  "imageUrl": "https://peopleenespanol.com/thmb/pqmbevjsU_WGuzR5QfL3U_i0fig=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/flan-de-vainilla-2000-3ae3466af3b349a79fa1b76234164ab1.jpg",
+  "category": "Postres"
+}
+
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Pastel de Zanahoria",
+  "description": "Un pastel esponjoso con zanahoria rallada, nueces y crema de queso frosting.",
+  "ingredients": [
+    "Zanahorias",
+    "Harina",
+    "Azúcar",
+    "Aceite vegetal",
+    "Huevos",
+    "Nueces",
+    "Bicarbonato de sodio",
+    "Polvo de hornear",
+    "Canela en polvo",
+    "Sal",
+    "Queso crema",
+    "Mantequilla",
+    "Azúcar glass",
+    "Extracto de vainilla"
+  ],
+  "steps": [
+    "Precalentar el horno a 180°C y engrasar y enharinar un molde para pastel.",
+    "Batir los huevos con azúcar hasta que estén espumosos, luego agregar el aceite vegetal.",
+    "Incorporar la harina tamizada con bicarbonato, polvo de hornear, canela y sal.",
+    "Agregar las zanahorias ralladas y las nueces picadas.",
+    "Verter la masa en el molde preparado y hornear durante 30-35 minutos o hasta que al insertar un palillo salga limpio.",
+    "Dejar enfriar completamente antes de desmoldar y decorar.",
+    "Batir el queso crema con mantequilla, azúcar glass y vainilla hasta obtener una crema suave.",
+    "Cubrir el pastel con la crema de queso frosting y decorar con nueces picadas si se desea."
+  ],
+  "preparationTime": "1 hora",
+  "servingSize": "10 porciones",
+  "imageUrl": "https://veggiefestchicago.org/wp-content/uploads/2021/04/21-carrot-cake-700x525.jpghttps://images.unsplash.com/photo-1567672939425-8c7b82c3f5df?q=80&w=1080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "category": "Tortas y Pasteles"
+}
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Tarta de Manzana",
+  "description": "Una clásica tarta con rebanadas de manzana, canela y una cobertura crujiente.",
+  "ingredients": [
+    "Harina",
+    "Mantequilla",
+    "Azúcar",
+    "Huevos",
+    "Leche",
+    "Manzanas",
+    "Canela en polvo",
+    "Azúcar glass (opcional)"
+  ],
+  "steps": [
+    "Preparar la masa mezclando harina, mantequilla, azúcar y huevos hasta formar una masa homogénea.",
+    "Estirar la masa y forrar un molde para tarta previamente engrasado.",
+    "Pelar y cortar las manzanas en rodajas finas.",
+    "Colocar las rodajas de manzana sobre la masa formando capas.",
+    "Espolvorear con canela y azúcar al gusto.",
+    "Hornear a 180°C durante 35-40 minutos o hasta que la masa esté dorada y las manzanas tiernas.",
+    "Dejar enfriar antes de espolvorear con azúcar glass si se desea."
+  ],
+  "preparationTime": "1 hora",
+  "servingSize": "8 porciones",
+  "imageUrl": "https://i0.wp.com/www.manualidadesapasos.com/wp-content/uploads/2020/04/receta-tarta-de-manzana.jpg?fit=800%2C534&ssl=1",
+  "category": "Tortas y Pasteles"
+}
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Mousse de Maracuyá",
+  "description": "Un postre ligero y refrescante con el sabor tropical del maracuyá.",
+  "ingredients": [
+    "Pulpa de maracuyá",
+    "Leche condensada",
+    "Crema de leche",
+    "Gelatina sin sabor",
+    "Agua",
+    "Azúcar"
+  ],
+  "steps": [
+    "Hidratar la gelatina en agua según las instrucciones del paquete.",
+    "En una licuadora, mezclar la pulpa de maracuyá con leche condensada.",
+    "Batir la crema de leche hasta que tenga consistencia firme.",
+    "Agregar la gelatina hidratada a la mezcla de maracuyá y leche condensada.",
+    "Incorporar suavemente la crema de leche batida con movimientos envolventes.",
+    "Repartir la mezcla en copas individuales y refrigerar por al menos 4 horas o hasta que esté firme.",
+    "Decorar con semillas de maracuyá o ralladura de limón antes de servir."
+  ],
+  "preparationTime": "20 minutos + tiempo de refrigeración",
+  "servingSize": "6 porciones",
+  "imageUrl": "https://recetinas.com/wp-content/uploads/2023/07/mousse-de-maracuya.jpg",
+  "category": "Postres"
+}
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Brownies de Chocolate",
+  "description": "Deliciosos brownies con intenso sabor a chocolate y nueces.",
+  "ingredients": [
+    "Chocolate negro",
+    "Mantequilla",
+    "Azúcar",
+    "Huevos",
+    "Harina",
+    "Cacao en polvo",
+    "Nueces picadas (opcional)"
+  ],
+  "steps": [
+    "Derretir el chocolate y la mantequilla juntos a baño maría o en el microondas.",
+    "Batir los huevos con azúcar hasta que estén espumosos.",
+    "Incorporar el chocolate derretido a la mezcla de huevos y azúcar.",
+    "Agregar la harina tamizada con el cacao en polvo y mezclar bien.",
+    "Incorporar las nueces picadas si se desea.",
+    "Verter la masa en un molde engrasado y hornear a 180°C durante 20-25 minutos.",
+    "Dejar enfriar antes de cortar en porciones y servir."
+  ],
+  "preparationTime": "45 minutos",
+  "servingSize": "12 porciones",
+  "imageUrl": "https://images.cookforyourlife.org/wp-content/uploads/2020/06/Dark-Chocolate-Brownies-shutterstock_112430981.jpg",
+  "category": "Postres"
+}
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Helado de Vainilla",
+  "description": "Un clásico helado cremoso con sabor a vainilla.",
+  "ingredients": [
+    "Leche",
+    "Crema de leche",
+    "Azúcar",
+    "Yemas de huevo",
+    "Esencia de vainilla"
+  ],
+  "steps": [
+    "En una olla, calentar la leche y la crema de leche hasta que esté caliente pero sin hervir.",
+    "Batir las yemas de huevo con azúcar hasta que estén espumosas.",
+    "Agregar gradualmente la mezcla caliente de leche y crema de leche a las yemas, mezclando constantemente.",
+    "Regresar la mezcla a la olla y cocinar a fuego medio-bajo, revolviendo constantemente, hasta que espese ligeramente y cubra la parte posterior de una cuchara.",
+    "Retirar del fuego, agregar la esencia de vainilla y dejar enfriar completamente.",
+    "Verter la mezcla en una máquina para hacer helado y seguir las instrucciones del fabricante.",
+    "Congelar el helado terminado por varias horas antes de servir."
+  ],
+  "preparationTime": "1 hora + tiempo de refrigeración y congelación",
+  "servingSize": "6 porciones",
+  "imageUrl": "https://www.cocinatis.com/archivos/202308/ctis1034-receta-helado-de-vainilla-1280x720x80xX.jpg",
+  "category": "Postres"
+}
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Crema Catalana",
+  "description": "Un postre tradicional catalán similar a la crema pastelera, pero con una capa caramelizada en la parte superior.",
+  "ingredients": [
+    "Leche",
+    "Yemas de huevo",
+    "Azúcar",
+    "Maicena",
+    "Cáscara de limón",
+    "Canela en rama",
+    "Azúcar para caramelizar"
+  ],
+  "steps": [
+    "Calentar la leche con la cáscara de limón y la canela en rama hasta que hierva.",
+    "En un bol aparte, batir las yemas con el azúcar hasta que estén espumosas.",
+    "Agregar la maicena y mezclar bien.",
+    "Retirar la cáscara de limón y la canela de la leche.",
+    "Agregar la leche caliente a las yemas poco a poco, mezclando constantemente.",
+    "Devolver la mezcla a la olla y cocinar a fuego medio-bajo, revolviendo constantemente, hasta que espese.",
+    "Verter la crema en recipientes individuales y dejar enfriar.",
+    "Espolvorear una capa de azúcar sobre cada crema y caramelizar con un soplete de cocina o bajo el grill del horno hasta que el azúcar se derrita y caramelice.",
+    "Dejar enfriar antes de servir."
+  ],
+  "preparationTime": "1 hora + tiempo de enfriamiento",
+  "servingSize": "4 porciones",
+  "imageUrl": "https://assets.elgourmet.com/wp-content/uploads/2023/03/cover_sevfzk9cgh_shutterstock-151539476-1024x683.jpg.webp",
+  "category": "Postres"
+}
+
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Panna Cotta",
+  "description": "Un postre italiano cremoso y delicado con sabor a vainilla, servido con salsa de frutos rojos.",
+  "ingredients": [
+    "Crema de leche",
+    "Leche",
+    "Azúcar",
+    "Gelatina sin sabor",
+    "Esencia de vainilla",
+    "Frutos rojos para la salsa"
+  ],
+  "steps": [
+    "Hidratar la gelatina en agua según las instrucciones del paquete.",
+    "En una olla, calentar la crema de leche, la leche y el azúcar hasta que estén casi hirviendo.",
+    "Retirar del fuego, agregar la gelatina hidratada y la esencia de vainilla, mezclar bien hasta que la gelatina se disuelva por completo.",
+    "Verter la mezcla en moldes individuales y refrigerar por al menos 4 horas o hasta que esté firme.",
+    "Preparar la salsa de frutos rojos cocinando los frutos con azúcar hasta que se forme una salsa espesa.",
+    "Desmoldar las panna cottas y servir con la salsa de frutos rojos."
+  ],
+  "preparationTime": "30 minutos + tiempo de refrigeración",
+  "servingSize": "6 porciones",
+  "imageUrl": "https://d1uz88p17r663j.cloudfront.net/original/c6910d35bc9f980a856fe1a5000159d9_Panna_Cotta_de_Leche_Condensada.jpg",
+  "category": "Postres"
+}
+
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Ceviche",
+  "description": "Un plato tradicional peruano con pescado fresco marinado en jugo de limón y mezclado con cebolla, ají y cilantro.",
+  "ingredients": [
+    "Filetes de pescado blanco (corvina, lenguado, etc.)",
+    "Jugo de limón fresco",
+    "Cebolla roja",
+    "Ají limo",
+    "Cilantro fresco",
+    "Sal y pimienta al gusto",
+    "Camote (boniato) cocido",
+    "Maíz cancha"
+  ],
+  "steps": [
+    "Cortar el pescado en cubos pequeños y colocarlos en un bol grande.",
+    "Exprimir el jugo de limón sobre el pescado y dejar marinar durante 10-15 minutos.",
+    "Agregar la cebolla roja cortada en juliana fina, el ají limo picado y el cilantro picado.",
+    "Mezclar bien y sazonar con sal y pimienta al gusto.",
+    "Servir inmediatamente acompañado de camote cocido y maíz cancha."
+  ],
+  "preparationTime": "30 minutos",
+  "servingSize": "4 porciones",
+  "imageUrl": "https://imag.bonviveur.com/ceviche-peruano-de-pescado.jpg",
+  "category": "Platos principales"
+}
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Lomo Saltado",
+  "description": "Un plato salteado con tiras de carne de res, cebolla, tomate y papas fritas, sazonado con salsa de soja y vinagre.",
+  "ingredients": [
+    "Lomo de res",
+    "Cebolla roja",
+    "Tomate",
+    "Ají amarillo",
+    "Papas fritas",
+    "Salsa de soja",
+    "Vinagre",
+    "Cilantro fresco",
+    "Arroz blanco cocido"
+  ],
+  "steps": [
+    "Cortar el lomo de res en tiras y sazonar con sal y pimienta.",
+    "En un wok o sartén grande, saltear la carne a fuego alto hasta que esté dorada.",
+    "Agregar la cebolla y el ají amarillo cortados en tiras, y saltear por unos minutos.",
+    "Incorporar el tomate cortado en gajos y cocinar brevemente.",
+    "Añadir la salsa de soja y el vinagre, y mezclar bien.",
+    "Servir caliente sobre una cama de papas fritas y acompañado de arroz blanco.",
+    "Decorar con cilantro fresco picado."
+  ],
+  "preparationTime": "40 minutos",
+  "servingSize": "4 porciones",
+  "imageUrl": "https://www.comedera.com/wp-content/uploads/2013/05/lomo-saltado-peruano-plato.jpg",
+  "category": "Platos principales"
+}
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Ají de Gallina",
+  "description": "Un guiso cremoso de pollo desmenuzado con una salsa de ají amarillo, leche y queso.",
+  "ingredients": [
+    "Pechugas de pollo",
+    "Ají amarillo",
+    "Leche evaporada",
+    "Pan blanco",
+    "Queso parmesano rallado",
+    "Cebolla",
+    "Ajo",
+    "Nueces",
+    "Aceitunas",
+    "Huevos duros",
+    "Papas cocidas",
+    "Arroz blanco cocido"
+  ],
+  "steps": [
+    "Cocinar las pechugas de pollo en agua con sal, desmenuzar y reservar.",
+    "Remojar el pan blanco en leche evaporada.",
+    "En una sartén, saltear la cebolla y el ajo picados hasta que estén dorados.",
+    "Agregar el ají amarillo licuado y cocinar por unos minutos.",
+    "Incorporar el pan remojado en leche y mezclar bien.",
+    "Añadir el pollo desmenuzado, el queso parmesano y las nueces molidas.",
+    "Cocinar a fuego lento hasta que la mezcla espese.",
+    "Servir sobre papas cocidas y decorar con aceitunas y huevos duros.",
+    "Acompañar con arroz blanco."
+  ],
+  "preparationTime": "1 hora",
+  "servingSize": "4 porciones",
+  "imageUrl": "https://img-global.cpcdn.com/recipes/d2a30b55a2ee44d6/1200x630cq70/photo.jpg",
+  "category": "Platos principales"
+}
+
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Papa a la Huancaína",
+  "description": "Papas cocidas servidas con una salsa cremosa de ají amarillo, queso y leche, decoradas con aceitunas y huevo duro.",
+  "ingredients": [
+    "Papas",
+    "Ají amarillo",
+    "Queso fresco",
+    "Leche evaporada",
+    "Galletas saladas",
+    "Aceitunas negras",
+    "Huevos duros",
+    "Lechuga",
+    "Sal y pimienta al gusto"
+  ],
+  "steps": [
+    "Cocinar las papas en agua con sal hasta que estén tiernas.",
+    "Licuar el ají amarillo con el queso fresco, leche evaporada y galletas saladas hasta obtener una salsa cremosa.",
+    "Sazonar la salsa con sal y pimienta al gusto.",
+    "Colocar una hoja de lechuga en cada plato y disponer las papas cocidas encima.",
+    "Verter la salsa huancaína sobre las papas.",
+    "Decorar con aceitunas negras y huevos duros cortados en rodajas."
+  ],
+  "preparationTime": "30 minutos",
+  "servingSize": "4 porciones",
+  "imageUrl": "https://perudelights.com/wp-content/uploads/2013/07/papa-a-la-huancaina-lista-1024x768.jpg",
+  "category": "Entradas"
+}
+
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Causa Limeña",
+  "description": "Un plato frío de puré de papas amarillas con ají amarillo, relleno de pollo, atún o mariscos.",
+  "ingredients": [
+    "Papas amarillas",
+    "Ají amarillo",
+    "Jugo de limón",
+    "Aceite vegetal",
+    "Pechuga de pollo cocida y desmenuzada (o atún)",
+    "Mayonesa",
+    "Palta (aguacate)",
+    "Huevo duro",
+    "Aceitunas",
+    "Sal y pimienta al gusto"
+  ],
+  "steps": [
+    "Cocinar las papas hasta que estén tiernas y hacer un puré.",
+    "Licuar el ají amarillo con aceite y jugo de limón, y agregar al puré de papas.",
+    "Sazonar el puré con sal y pimienta al gusto.",
+    "Mezclar el pollo desmenuzado con mayonesa y sazonar.",
+    "En un molde, colocar una capa de puré de papas, luego una capa de pollo con mayonesa, y terminar con otra capa de puré de papas.",
+    "Decorar con rodajas de palta, huevo duro y aceitunas.",
+    "Servir frío."
+  ],
+  "preparationTime": "45 minutos",
+  "servingSize": "4 porciones",
+  "imageUrl": "https://i.ytimg.com/vi/BaJAydePLNg/maxresdefault.jpg",
+  "category": "Entradas"
+}
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Arroz con Pollo",
+  "description": "Un plato colorido con pollo dorado y arroz verde, sazonado con cilantro y espinaca.",
+  "ingredients": [
+    "Muslos de pollo",
+    "Arroz",
+    "Cilantro fresco",
+    "Espinaca",
+    "Cerveza",
+    "Ajo",
+    "Cebolla",
+    "Pimiento rojo",
+    "Zanahoria",
+    "Choclo (maíz)",
+    "Arvejas",
+    "Sal y pimienta al gusto"
+  ],
+  "steps": [
+    "Sazonar los muslos de pollo con sal y pimienta y dorar en una sartén.",
+    "En una licuadora, mezclar cilantro, espinaca y cerveza hasta obtener un puré.",
+    "En una olla grande, sofreír cebolla, ajo y pimiento rojo picados.",
+    "Agregar el puré de cilantro y espinaca, y cocinar por unos minutos.",
+    "Añadir el arroz, la zanahoria picada, el choclo y las arvejas, y mezclar bien.",
+    "Colocar los muslos de pollo dorados sobre el arroz.",
+    "Cubrir con agua o caldo y cocinar a fuego medio hasta que el arroz esté cocido.",
+    "Servir caliente."
+  ],
+  "preparationTime": "1 hora",
+  "servingSize": "4 porciones",
+  "imageUrl": "https://imgmedia.buenazo.pe/652x359/buenazo/original/2022/10/24/60d89da6913c240e6725db08.webp",
+  "category": "Platos principales"
+}
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Anticuchos",
+  "description": "Brochetas de corazón de res marinado en ají panca, comino y ajo, asadas a la parrilla.",
+  "ingredients": [
+    "Corazón de res",
+    "Ají panca",
+    "Ajo",
+    "Vinagre",
+    "Aceite vegetal",
+    "Comino",
+    "Orégano",
+    "Sal y pimienta al gusto",
+    "Palo para brochetas"
+  ],
+  "steps": [
+    "Limpiar y cortar el corazón de res en trozos medianos.",
+    "Marinar el corazón con ají panca licuado, ajo picado, vinagre, aceite, comino, orégano, sal y pimienta.",
+    "Ensartar los trozos de corazón en palos para brochetas.",
+    "Asar los anticuchos a la parrilla hasta que estén cocidos a su gusto.",
+    "Servir caliente acompañado de papas doradas y choclo."
+  ],
+  "preparationTime": "1 hora (más tiempo de marinado)",
+  "servingSize": "4 porciones",
+  "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.comedera.com%2Freceta-de-anticucho-peruano%2F&psig=AOvVaw2Is9kQ3a0obRg32lRWw3bK&ust=1718920366374000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPDwjcHT6IYDFQAAAAAdAAAAABAE",
+  "category": "Entradas"
+}
+
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Picarones",
+  "description": "Dulces tradicionales peruanos hechos de una masa de zapallo y camote, fritos y servidos con miel de chancaca.",
+  "ingredients": [
+    "Zapallo",
+    "Camote",
+    "Harina",
+    "Levadura",
+    "Azúcar",
+    "Anís",
+    "Aceite para freír",
+    "Chancaca",
+    "Agua",
+    "Canela",
+    "Clavo de olor"
+  ],
+  "steps": [
+    "Cocinar el zapallo y el camote hasta que estén tiernos y hacer un puré.",
+    "Mezclar el puré con harina, levadura, azúcar y anís, y dejar reposar hasta que doble su tamaño.",
+    "En una olla, preparar la miel de chancaca hirviendo la chancaca con agua, canela y clavo de olor hasta que espese.",
+    "Formar aros con la masa y freírlos en aceite caliente hasta que estén dorados.",
+    "Escurrir los picarones sobre papel absorbente y servir con la miel de chancaca."
+  ],
+  "preparationTime": "1 hora",
+  "servingSize": "6 porciones",
+  "imageUrl": "https://www.comedera.com/wp-content/uploads/2022/07/picarones-peruanos.jpg",
+  "category": "Postres"
+}
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Suspiro a la Limeña",
+  "description": "Un postre dulce y cremoso hecho con leche condensada y merengue, espolvoreado con canela.",
+  "ingredients": [
+    "Leche condensada",
+    "Leche evaporada",
+    "Huevos",
+    "Azúcar",
+    "Vino oporto",
+    "Canela en polvo"
+  ],
+  "steps": [
+    "En una olla, cocinar la leche condensada y la leche evaporada a fuego lento, removiendo constantemente, hasta que espese.",
+    "Retirar del fuego y agregar las yemas de huevo batidas, mezclando bien.",
+    "Repartir la mezcla en copas individuales y dejar enfriar.",
+    "Para el merengue, batir las claras de huevo a punto de nieve con azúcar y un poco de vino oporto.",
+    "Cubrir el postre con el merengue y espolvorear con canela en polvo.",
+    "Refrigerar antes de servir."
+  ],
+  "preparationTime": "40 minutos",
+  "servingSize": "6 porciones",
+  "imageUrl": "https://perudelights.com/wp-content/uploads/2011/04/Suspiro.jpg",
+  "category": "Postres"
+}
+
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Mazamorra Morada",
+  "description": "Un postre típico peruano hecho a base de maíz morado, frutas secas y especias.",
+  "ingredients": [
+    "Maíz morado",
+    "Piña",
+    "Membrillo",
+    "Canela en rama",
+    "Clavo de olor",
+    "Azúcar",
+    "Frutas secas (ciruelas, guindones, albaricoques)",
+    "Chuño (fécula de papa)",
+    "Agua",
+    "Limón"
+  ],
+  "steps": [
+    "Hervir el maíz morado con canela y clavo de olor en abundante agua hasta que el maíz suelte su color.",
+    "Colar y reservar el líquido morado.",
+    "Agregar piña y membrillo cortados en trozos, y las frutas secas.",
+    "Cocinar hasta que las frutas estén tiernas.",
+    "Disolver el chuño en un poco de agua fría y agregar a la preparación, removiendo constantemente hasta que espese.",
+    "Añadir azúcar al gusto y un poco de jugo de limón.",
+    "Servir caliente o frío."
+  ],
+  "preparationTime": "1 hora",
+  "servingSize": "8 porciones",
+  "imageUrl": "https://www.record.com.pe/wp-content/uploads/2021/03/mazamorra-morada-960x635-1-1.png",
+  "category": "Postres"
+}
+
+
+
+
+###
+POST http://localhost:3000/api/recipes HTTP/1.1
+Content-Type: application/json
+
+
+
+
+###
+GET http://localhost:3000/api/recipes HTTP/1.1
+
+
+###
+POST http://localhost:3000/api/suggestions HTTP/1.1
+Content-Type: application/json
+
+{
+  "type": "request",
+  "title": "Receta de comida mexicana",
+  "message": "Me gustaría que agregaran una receta auténtica de tacos al pastor mexicanos."
+}
+
+###
+POST http://localhost:3000/api/suggestions HTTP/1.1
+Content-Type: application/json
+
+{
+  "type": "recommendation",
+  "title": "Nueva receta de postre",
+  "message": "Podrían agregar una receta de postre con frutas de temporada, sería genial para el verano."
+}
+
+
+###
+GET http://localhost:3000/api/suggestions HTTP/1.1
+
+###
+GET http://localhost:3000/api/recipes/newest HTTP/1.1
+
+###
+GET http://localhost:3000/api/recipes/random HTTP/1.1
+
+###
+GET http://localhost:3000/api/recipes/page?page=1&pageSize=10 HTTP/1.1
+
+###
+GET http://localhost:3000/api/recipes/666e9e84c140af464e3bead7 HTTP/1.1

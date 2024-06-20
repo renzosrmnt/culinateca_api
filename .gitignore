@@ -11,4 +11,4 @@ npm-debug.log*
 
 # Others
 .DS_Store
-requests.http
+#requests.http
